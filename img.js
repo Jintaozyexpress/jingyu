@@ -6,8 +6,12 @@ const inpFile = document.querySelector('input[type="file"]');
 function loadImage(src) {
     const img = new Image();
     img.onload = function () {
-        cvs.width = img.width;
-        cvs.height = img.height;
+        //function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+           // draw();
+    //   cvs.width = img.width;
+      //  cvs.height = img.height;
         ctx.drawImage(img, 0, 0);
     };
     img.src = src;
