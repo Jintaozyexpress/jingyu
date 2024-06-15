@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(90deg, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
     display: flex;
+    background-repeat: no-repeat;
     flex-direction: column;
     align-items: center;
     justify-content: center;
